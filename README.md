@@ -17,7 +17,7 @@ Ol'Libraria was made in Visual Studio, uses SQL Server Express LocalDB, means th
 2. Open the [Ollibraria.sln](Ollibraria.sln) in Visual Studio.
 3. Open [Login.aspx](Ollibraria/View/Login.aspx) in Visual Studio's editor and run the program.
 
-# Entity Relationship Diagram for Ollibraria's Database
+# Class Diagram for Ollibraria's Database
 ![](pic/0database.jpg)
 
 Entitiy Relationship Diagram (ERD) for the Ollibraria's application database. Which shows how each model interact with one another and what values they store inside of them.
