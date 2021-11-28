@@ -84,21 +84,29 @@ A user can change their password from the Profile page, data required to change 
 # View Transaction History Page
 ![](pic/10viewtransactionhistory.jpg)
 
-
+This page is accessible only to Members. View Transaction History will show the current user's transaction history, the information shown is books name, quantity ordered, date, sub total of that transaction, and the grand total of all transactions.
 
 
 # Insert Books Page
 ![](pic/12insertbook.jpg)
 
+Insert Books page is accessible only to Administrator. In this page, admin can insert a new book to the database by filling the information and then clicking the Insert button. Input validations in this page are: description must be longer than 10 characters, stock must be more than 0 and numeric.
+
 
 # Update Books Page
 ![](pic/11updatebook.jpg)
+
+Update Medicine page is accessible only to Administrator. This page allows an admin to update an existing books in the database. After filling the books information, admin can click the update button to update this book's information to the database.
 
 
 # View Users Page
 ![](pic/13viewusers.jpg)
 
+View Users page is accessible only to Administrator. This page allows an admin to view all users that exist in the database. Administrator can also delete that user from the database by clicking the delete button to prevent them from logging in the web application.
+
 
 # View Transaction Report Page
 ![](pic/14viewtransactionreport.jpg)
+
+Last page for Administrator is the View Transaction Report page. This page will show Administrator every transactions that have happened in Ollibraria. Information shown are transaction id, user name, book name, date of transaction, price, quantity, sub total, and grand total of all transactions.
 
