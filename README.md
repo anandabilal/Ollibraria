@@ -18,7 +18,9 @@ Ol'Libraria was made in Visual Studio, uses SQL Server Express LocalDB, means th
 # Entity Relationship Diagram for Ollibraria's Database
 ![](pic/0database.jpg)
 
+Entitiy Relationship Diagram (ERD) for the Ollibraria's application database. Which shows how each model interact with one another and what values they store inside of them.
 Below is the preview and/or flow of the application:
+
 # Login Page
 ![](pic/1login.jpg)
 
