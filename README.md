@@ -1,5 +1,5 @@
 # Ollibraria
-Ol'Libraria is an web application for customer to buy books, and for the shop owner to manage books. This website was made in ASP.NET and C# and was developed with Domain Drive Design (DDD) architecture in mind. Which means this application uses layers such as:
+Ollibraria is a web application for customers to buy books, and for the shop owner to manage books. This website was made in ASP.NET and C# and was developed with Domain Drive Design (DDD) architecture in mind. Which means this application uses layers such as:
 
 1. View -- to show information to the user and interpret their commands.
 2. Controller -- to validate all input from the view layer.
