@@ -8,7 +8,9 @@ Ol'Libraria is an web application for customer to buy books, and for the shop ow
 5. Factory -- for encapsulating all complex object creation.
 6. Model -- for representing concepts in the business, and their relations with one another.
 
-Ol'Libraria was made in Visual Studio, uses SQL Server Express LocalDB, means the database is included within the project and there's no need for external connection. This web application also incorporates features such as input validation that will be triggered if a user entered an invalid input.
+Ol'Libraria was made in Visual Studio, uses SQL Server Express LocalDB, means the database is included within the project and there's no need for external connection. This web application incorporates features such as:
+1. Input validations that will be triggered if a user entered an invalid input.
+2. Remember Me functions by saving the users cookies.
 
 # Startup Guide
 1. Install Microsoft's Visual Studio.
