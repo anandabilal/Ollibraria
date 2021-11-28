@@ -32,23 +32,29 @@ This page allows guests to register themselves as Ollibraria’s members. Will d
 # Home (as Member)
 ![](pic/3home1.jpg)
 
+After success logged in, the user will be redirected to the home page and this page is only accessible by logged-in users. If you're a Member then you will be shown the menu to the picture above.
+
 
 # Home (as Administrator)
 ![](pic/3home2.jpg)
+
+The Home menu but as an administrator opens new menus that are only accessible as an Administrator. Those menu are shown above.
 
 
 # View Books Page (as Member)
 ![](pic/4viewbooks1.jpg)
 
-
+This page allows users to see all of Ollibraria’s books information, fetched from the database. The user will be redirected to this page when they clicked the View Books Button provided at the Home Page. As a member you can add these books to the cart.
 
 # View Books Page (as Administrator)
 ![](pic/4viewbooks2.jpg)
 
+View Books as an Administrator is almost the same as Member, but instead of the button adding books to the cart, it will instead allow you to edit or delete those books from the database.
 
 # View Carts Page
 ![](pic/5viewcarts.jpg)
 
+This page displays all books that have been added into the current logged-in user’s shopping cart. Cart will show informations about the book the user is about to checkout, such as name, price, quantity, sub total, and grand total.
 
 # Add to Cart Page
 ![](pic/6addtocart.jpg)
