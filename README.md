@@ -39,12 +39,10 @@ This page allows guests to register themselves as Ollibraria’s members. Will d
 
 After success logged in, the user will be redirected to the home page and this page is only accessible by logged-in users. If you're a Member then you will be shown the menu to the picture above.
 
-
 # Home (as Administrator)
 ![](pic/3home2.jpg)
 
 The Home menu but as an administrator opens new menus that are only accessible as an Administrator. Those menu are shown above.
-
 
 # View Books Page (as Member)
 ![](pic/4viewbooks1.jpg)
@@ -76,39 +74,32 @@ This page allows Member and Administrator to view their data, which will show th
 
 Update profile can be accessed from the Profile page if the user wants to change their profile information. After user input their updated information, user can press the update button to update their profile in the database.
 
-
 # Change Password Page
 ![](pic/9changepassword.jpg)
 
 A user can change their password from the Profile page, data required to change a user's password is for them to input their old password, and enter their new password two times. Input validation in here is new password must be longer than 5 characters and cannot be empty.
-
 
 # View Transaction History Page
 ![](pic/10viewtransactionhistory.jpg)
 
 This page is accessible only to Members. View Transaction History will show the current user's transaction history, the information shown is books name, quantity ordered, date, sub total of that transaction, and the grand total of all transactions.
 
-
 # Insert Books Page
 ![](pic/12insertbook.jpg)
 
 Insert Books page is accessible only to Administrator. In this page, admin can insert a new book to the database by filling the information and then clicking the Insert button. Input validations in this page are: description must be longer than 10 characters, stock must be more than 0 and numeric.
-
 
 # Update Books Page
 ![](pic/11updatebook.jpg)
 
 Update Medicine page is accessible only to Administrator. This page allows an admin to update an existing books in the database. After filling the books information, admin can click the update button to update this book's information to the database.
 
-
 # View Users Page
 ![](pic/13viewusers.jpg)
 
 View Users page is accessible only to Administrator. This page allows an admin to view all users that exist in the database. Administrator can also delete that user from the database by clicking the delete button to prevent them from logging in the web application.
 
-
 # View Transaction Report Page
 ![](pic/14viewtransactionreport.jpg)
 
 Last page for Administrator is the View Transaction Report page. This page will show Administrator every transactions that have happened in Ollibraria. Information shown are transaction id, user name, book name, date of transaction, price, quantity, sub total, and grand total of all transactions.
-
