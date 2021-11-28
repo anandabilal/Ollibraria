@@ -20,9 +20,13 @@ Ol'Libraria was made in Visual Studio, uses SQL Server Express LocalDB, means th
 
 Below is the preview and/or flow of the application:
 # Login Page
+![](pic/1login.jpg)
+
 This page is the landing page of the website where the user will attempt to log in to the website. Your role in the web application will be determined by your username and password. An administrator have their username and password set as 'admin' and 'admin' respectively.
 
 # Register Page
+![](pic/2register.jpg)
+
 This page allows guests to register themselves as Ollibraria’s members. Will display an error if user input is invalid such as if the user input phone number with anything that isn't a numerical value.
 
 # Home (as Member)
