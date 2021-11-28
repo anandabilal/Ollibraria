@@ -26,43 +26,58 @@ This page is the landing page of the website where the user will attempt to log 
 This page allows guests to register themselves as Ollibraria’s members. Will display an error if user input is invalid such as if the user input phone number with anything that isn't a numerical value.
 
 # Home (as Member)
+![](pic/3home1.jpg)
 
 
 # Home (as Administrator)
+![](pic/3home2.jpg)
 
 
-# View Medicines Page (as Member)
+# View Books Page (as Member)
+![](pic/4viewbooks1.jpg)
 
 
-# View Medicines Page (as Administrator)
+
+# View Books Page (as Administrator)
+![](pic/4viewbooks2.jpg)
 
 
 # View Carts Page
+![](pic/5viewcarts.jpg)
 
 
 # Add to Cart Page
+![](pic/6addtocart.jpg)
 
 
 # Profile Page
+![](pic/7profile.jpg)
 
 
 # Update Profile Page
+![](pic/8updateprofile.jpg)
 
 
 # Change Password Page
+![](pic/9changepassword.jpg)
 
 
 # View Transaction History Page
+![](pic/10viewtransactionhistory.jpg)
 
 
-# Insert Medicine Page
+# Insert Books Page
+![](pic/12insertbook.jpg)
 
 
-# Update Medicine Page
+# Update Books Page
+![](pic/11updatebook.jpg)
 
 
 # View Users Page
+![](pic/13viewusers.jpg)
 
 
 # View Transaction Report Page
+![](pic/14viewtransactionreport.jpg)
 
