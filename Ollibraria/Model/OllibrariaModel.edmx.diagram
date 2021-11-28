@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="706ca4b79fd7428f896a99df7a1d6694" Name="Diagram1" ZoomLevel="96">
+        <EntityTypeShape EntityType="OllibrariaDBModel.Book" Width="1.5" PointX="0.625" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="OllibrariaDBModel.Cart" Width="1.5" PointX="0.625" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="OllibrariaDBModel.DetailTransaction" Width="1.5" PointX="2.75" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="OllibrariaDBModel.HeaderTransaction" Width="1.5" PointX="5.125" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OllibrariaDBModel.Role" Width="1.5" PointX="5.125" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="OllibrariaDBModel.User" Width="1.5" PointX="2.75" PointY="5.375" IsExpanded="true" />
+        <AssociationConnector Association="OllibrariaDBModel.FK_Cart_Book" ManuallyRouted="false" />
+        <AssociationConnector Association="OllibrariaDBModel.FK_DetailTransaction_Book" ManuallyRouted="false" />
+        <AssociationConnector Association="OllibrariaDBModel.FK_Cart_User" ManuallyRouted="false" />
+        <AssociationConnector Association="OllibrariaDBModel.FK_DetailTransaction_HeaderTransaction" ManuallyRouted="false" />
+        <AssociationConnector Association="OllibrariaDBModel.FK_HeaderTransaction_User" ManuallyRouted="false" />
+        <AssociationConnector Association="OllibrariaDBModel.FK_User_Role" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

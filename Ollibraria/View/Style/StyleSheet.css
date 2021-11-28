@@ -1,0 +1,548 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: linear-gradient(200deg, #2980b9, #8e44ad);
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* (1/14) Login.aspx */
+/* TEMPLATE 1: .mainPage */
+.login{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    width: 400px;
+    border-radius: 10px;
+}
+
+/* TEMPLATE 2: h1 */
+.login h1{
+    text-align: center;
+    padding: 0 0 10px 0;
+    border-bottom: 1px solid silver;
+}
+
+/* TEMPLATE 3: .Wrapper */
+.login .loginWrapper{
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+/* TEMPLATE 4: .div margin */
+.login .loginWrapper :is(.txtInput, .rememberMe, .lblError, .btnLogin, .toRegister){
+    position: relative;
+    margin: 10px 0;
+}
+
+/* TEMPLATE 5A: #txt width and height */
+.login .loginWrapper :is(#txtUsername, #txtPassword){
+    width: 310px;
+    height: 25px;
+}
+
+/* TEMPLATE 6: #btn width and height */
+.login .loginWrapper #btnLogin{
+    width: 123px;
+    height: 25px;
+}
+
+/* (2/14) Register.aspx */
+.register{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    width: 400px;
+    border-radius: 10px;
+}
+
+.register h1 {
+    text-align: center;
+    padding: 0 0 10px 0;
+    border-bottom: 1px solid silver;
+}
+
+.register .registerWrapper {
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+.register .registerWrapper :is(.txtInput, .radioGender, .lblError, .btnRegister, .toLogin){
+    position: relative;
+    margin: 10px 0;
+}
+
+.register .registerWrapper :is(#txtUsername, #txtPassword, #txtConfirmPassword, #txtName, #txtPhone){
+    width: 310px;
+    height: 25px;
+}
+
+/* TEMPLATE 5B: #txtAddress width and height */
+.register .registerWrapper #txtAddress{
+    width: 310px;
+    height: 48px;
+}
+
+.register .registerWrapper #btnRegister{
+    width: 123px;
+    height: 25px;
+}
+
+/* (3/14) Home.aspx */
+.home{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    width: 600px;
+    border-radius: 10px;
+}
+
+.home h1{
+    text-align: center;
+    padding: 0 0 10px 0;
+    border-bottom: 1px solid silver;
+}
+
+.home .homeWrapper{
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+.home .homeWrapper :is(.lblWelcome, .btnBookProfile, .btnViewCartTransactionHistory, .btnInsertBookViewUsersTransactionReport, .btnLogout){
+    position: relative;
+    margin: 10px 0;
+}
+
+.home .homeWrapper :is(#btnBook, #btnProfile, #btnViewCart, #btnInsertBook, #btnViewUsers, #btnLogout){
+    width: 123px;
+    height: 25px;
+}
+
+.home .homeWrapper :is(#btnTransactionHistory, #btnTransactionReport){
+    height: 25px;
+}
+
+/* (4/14) ViewBooks.aspx */
+.viewBooks{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    width: 1200px;
+    border-radius: 10px;
+}
+
+.viewBooks h1{
+    text-align: center;
+    padding: 0 0 10px 0;
+    border-bottom: 1px solid silver;
+}
+
+.viewBooks .viewBooksWrapper{
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+.viewBooks .viewBooksWrapper :is(.btnHome, .txtBtnSearchShowAll, .gridBook, .btnInsert){
+    position: relative;
+    margin: 10px 0;
+}
+
+/* TEMPLATE 7: #gridView */
+.viewBooks .viewBooksWrapper #gridBook{
+    background: white;
+}
+
+.viewBooks .viewBooksWrapper :is(#btnHome, #btnSearch, #btnShowAll, #btnInsert){
+    width: 123px;
+    height: 25px;
+}
+
+.viewBooks .viewBooksWrapper #txtSearch{
+    width: 295px;
+    height: 25px;
+}
+
+/* (5/14) InsertBook.aspx */
+.insertBook{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    width: 400px;
+    border-radius: 10px;
+}
+
+.insertBook h1{
+    text-align: center;
+    padding: 0 0 10px 0;
+    border-bottom: 1px solid silver;
+}
+
+.insertBook .insertBookWrapper{
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+.insertBook .insertBookWrapper :is(.btnHome, .txtName, .txtDescription, .txtStock, .txtPrice, .lblError, .btnInsert){
+    position: relative;
+    margin: 10px 0;
+}
+
+.insertBook .insertBookWrapper :is(#txtName, #txtStock, #txtPrice){
+    width: 310px;
+    height: 25px;
+}
+
+.insertBook .insertBookWrapper #txtDescription{
+    width: 310px;
+    height: 48px;
+}
+
+.insertBook .insertBookWrapper :is(#btnHome, #btnInsert){
+    width: 123px;
+    height: 25px;
+}
+
+/* (6/14) Profile.aspx */
+.profile {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    width: 550px;
+    border-radius: 10px;
+}
+
+.profile h1{
+    text-align: center;
+    padding: 0 0 10px 0;
+    border-bottom: 1px solid silver;
+}
+
+.profile .profileWrapper{
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+.profile .profileWrapper :is(.btnHome, .gridProfile, .btnUpdateProfileChangePassword) {
+    position: relative;
+    margin: 10px 0;
+}
+
+.profile .profileWrapper :is(#btnHome, #btnUpdateProfile, #btnChangePassword) {
+    width: 123px;
+    height: 25px;
+}
+
+.profile .profileWrapper #gridProfile {
+    background: white;
+}
+
+/* (7/14) UpdateProfile.aspx */
+.updateProfile {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    width: 400px;
+    border-radius: 10px;
+}
+
+.updateProfile h1 {
+    text-align: center;
+    padding: 0 0 10px 0;
+    border-bottom: 1px solid silver;
+}
+
+.updateProfile .updateProfileWrapper {
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+.updateProfile .updateProfileWrapper :is(.btnHome, .txtName, .lblGender, .txtPhone, .txtAddress, .lblError, .btnUpdate) {
+    position: relative;
+    margin: 10px 0;
+}
+
+.updateProfile .updateProfileWrapper :is(#txtName, #txtPhone) {
+    width: 310px;
+    height: 25px;
+}
+
+.updateProfile .updateProfileWrapper #txtAddress {
+    width: 310px;
+    height: 48px;
+}
+
+.updateProfile .updateProfileWrapper :is(#btnHome, #btnUpdate) {
+    width: 123px;
+    height: 25px;
+}
+
+/* (8/14) ChangePassword.aspx */
+.changePassword {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    width: 400px;
+    border-radius: 10px;
+}
+
+.changePassword h1{
+    text-align: center;
+    padding: 0 0 10px 0;
+    border-bottom: 1px solid silver;
+}
+
+.changePassword .changePasswordWrapper{
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+.changePassword .changePasswordWrapper :is(.btnHome, .txtOldPassword, .txtNewPassword, .txtConfirmPassword, .lblError, .btnUpdate) {
+    position: relative;
+    margin: 10px 0;
+}
+
+.changePassword .changePasswordWrapper :is(#txtOldPassword, #txtNewPassword, #txtConfirmPassword) {
+    width: 310px;
+    height: 25px;
+}
+
+.changePassword .changePasswordWrapper :is(#btnHome, #btnUpdate) {
+    width: 123px;
+    height: 25px;
+}
+
+/* (9/14) UpdateBook.aspx */
+.updateBook{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    width: 400px;
+    border-radius: 10px;
+}
+
+.updateBook h1 {
+    text-align: center;
+    padding: 0 0 10px 0;
+    border-bottom: 1px solid silver;
+}
+
+.updateBook .updateBookWrapper {
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+.updateBook .updateBookWrapper :is(.btnHome, .txtName, .txtDescription, .txtStock, .txtPrice, .lblError, .btnUpdate) {
+    position: relative;
+    margin: 10px 0;
+}
+
+.updateBook .updateBookWrapper :is(#txtName, #txtStock, #txtPrice) {
+    width: 310px;
+    height: 25px;
+}
+
+.updateBook .updateBookWrapper #txtDescription {
+    width: 310px;
+    height: 48px;
+}
+
+.updateBook .updateBookWrapper :is(#btnHome, #btnUpdate) {
+    width: 123px;
+    height: 25px;
+}
+
+/* (10/14) ViewUsers.aspx */
+.viewUsers {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    width: 775px;
+    border-radius: 10px;
+}
+
+.viewUsers h1 {
+    text-align: center;
+    padding: 0 0 10px 0;
+    border-bottom: 1px solid silver;
+}
+
+.viewUsers .viewUsersWrapper {
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+.viewUsers .viewUsersWrapper :is(.btnHome, .gridUser) {
+    position: relative;
+    margin: 10px 0;
+}
+
+.viewUsers .viewUsersWrapper #btnHome {
+    width: 123px;
+    height: 25px;
+}
+
+.viewUsers .viewUsersWrapper #gridUser {
+    background: white;
+}
+
+/* (11/14) ViewTransactionReport.aspx */
+.viewTransactionReport {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    width: 1200px;
+    border-radius: 10px;
+}
+
+.viewTransactionReport h1 {
+    text-align: center;
+    padding: 0 0 10px 0;
+    border-bottom: 1px solid silver;
+}
+
+.viewTransactionReport .viewTransactionReportWrapper {
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+.viewTransactionReport .viewTransactionReportWrapper :is(.btnHome, .divTableReport) {
+    position: relative;
+    margin: 10px 0;
+}
+
+.viewTransactionReport .viewTransactionReportWrapper #btnHome {
+    width: 123px;
+    height: 25px;
+}
+
+/* TEMPLATE 8: #table */
+.viewTransactionReport .viewTransactionReportWrapper #tableReport{
+    background: white;
+    border-collapse: collapse;
+}
+
+/* TEMPLATE 9: #table Grand Total */
+.viewTransactionReport .viewTransactionReportWrapper #grandTotal{
+    text-align: center;
+    font-weight: bold;
+}
+
+/* (12/14) AddToCart.aspx */
+.addToCart {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    width: 900px;
+    border-radius: 10px;
+}
+
+.addToCart h1 {
+    text-align: center;
+    padding: 0 0 10px 0;
+    border-bottom: 1px solid silver;
+}
+
+.addToCart .addToCartWrapper {
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+.addToCart .addToCartWrapper :is(.btnHome, .gridBook, .txtQuantity, .lblError, .btnAddToCart) {
+    position: relative;
+    margin: 10px 0;
+}
+
+.addToCart .addToCartWrapper #txtQuantity {
+    width: 310px;
+    height: 25px;
+}
+
+.addToCart .addToCartWrapper :is(#btnHome, #btnAddToCart) {
+    width: 123px;
+    height: 25px;
+}
+
+.addToCart .addToCartWrapper #gridBook {
+    background: white;
+}
+
+/* (13/14) ViewCart.aspx */
+.viewCart {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    width: 900px;
+    border-radius: 10px;
+}
+
+.viewCart h1 {
+    text-align: center;
+    padding: 0 0 10px 0;
+    border-bottom: 1px solid silver;
+}
+
+.viewCart .viewCartWrapper {
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+.viewCart .viewCartWrapper :is(.btnHomeViewBook, .tableCart, .lblError, .btnCheckout) {
+    position: relative;
+    margin: 10px 0;
+}
+
+.viewCart .viewCartWrapper :is(#btnHome, #btnViewBook, #btnCheckout) {
+    width: 123px;
+    height: 25px;
+}
+
+.viewCart .viewCartWrapper #tableCart {
+    background: white;
+    border-collapse: collapse;
+}
+
+.viewCart .viewCartWrapper #grandTotal {
+    text-align: center;
+    font-weight: bold;
+}
+
+/* (14/14) ViewTransactionHistory.aspx */
+.viewTransactionHistory {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    width: 900px;
+    border-radius: 10px;
+}
+
+.viewTransactionHistory h1 {
+    text-align: center;
+    padding: 0 0 10px 0;
+    border-bottom: 1px solid silver;
+}
+
+.viewTransactionHistory .viewTransactionHistoryWrapper {
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+.viewTransactionHistory .viewTransactionHistoryWrapper :is(.btnHome, .tableHistory) {
+    position: relative;
+    margin: 10px 0;
+}
+
+.viewTransactionHistory .viewTransactionHistoryWrapper #btnHome {
+    width: 123px;
+    height: 25px;
+}
+
+.viewTransactionHistory .viewTransactionHistoryWrapper #tableHistory {
+    background: white;
+    border-collapse: collapse;
+}
+
+.viewTransactionHistory .viewTransactionHistoryWrapper #grandTotal {
+    text-align: center;
+    font-weight: bold;
+}
